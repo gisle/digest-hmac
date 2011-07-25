@@ -1,5 +1,5 @@
 package Digest::HMAC_SHA1;
-$VERSION="1.01";
+$VERSION="1.03";
 
 use strict;
 use Digest::SHA qw(sha1);

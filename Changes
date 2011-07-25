@@ -1,3 +1,13 @@
+2011-07-25   Gisle Aas <gisle@ActiveState.com>
+
+   Release 1.03
+
+   Depend on Digest::SHA instead of Digest::SHA1 [RT#69776]
+
+   Document the blocksize argument [RT#14551]
+
+
+
 2010-01-10   Gisle Aas <gisle@ActiveState.com>
 
    Release 1.02
