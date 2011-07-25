@@ -6,7 +6,7 @@ WriteMakefile(
     'VERSION_FROM' => 'lib/Digest/HMAC.pm',
     'ABSTRACT_FROM' => 'lib/Digest/HMAC.pm',
     'PREREQ_PM'    => { 'Digest::MD5' => 2.00,
-                        'Digest::SHA1' => 1.00,
+                        'Digest::SHA' => 1.00,
                       },
     'AUTHOR'       => 'Gisle Aas <gisle@activestate.com>',
     'LICENSE'      => 'perl',
