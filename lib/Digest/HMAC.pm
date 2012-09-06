@@ -9,6 +9,7 @@ sub new
 {
     my($class, $key, $hasher, $block_size) =  @_;
     $block_size ||= 64;
+    $key = "".$key;
     $key = $hasher->new->add($key)->digest if length($key) > $block_size;
 
     my $self = bless {}, $class;
