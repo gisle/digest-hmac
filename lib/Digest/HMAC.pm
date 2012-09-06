@@ -52,6 +52,7 @@ sub hmac
 {
     my($data, $key, $hash_func, $block_size) = @_;
     $block_size ||= 64;
+    $key = "".$key;
     $key = &$hash_func($key) if length($key) > $block_size;
 
     my $k_ipad = $key ^ (chr(0x36) x $block_size);
